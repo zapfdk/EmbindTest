@@ -1,0 +1,18 @@
+﻿Build started 09.06.2015 10:35:52.
+     1>Project "c:\Users\zapfdk\documents\visual studio 2010\Projects\EmbindTest\EmbindTest\EmbindTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Emscripten\Release\EmbindTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Emscripten\emscripten\1.30.0\emcc.bat Emscripten/Release/EmbindTest.o -o "c:/users/zapfdk/documents/visual studio 2010/Projects/EmbindTest/Emscripten/Release/EmbindTest.html" -O2 -L"C:/Users/zapfdk/Documents/Visual Studio 2010/Projects/EmbindTest/EmbindTest" --bind
+     1>GCCLINK : warning root: -I or -L of an absolute path "-LC:/Users/zapfdk/Documents/Visual Studio 2010/Projects/EmbindTest/EmbindTest" encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript). Pass '-Wno-warn-absolute-paths' to emcc to hide this warning.
+         EmbindTest.vcxproj -> c:\users\zapfdk\documents\visual studio 2010\Projects\EmbindTest\Emscripten\Release\EmbindTest.html
+       FinalizeBuildStatus:
+         Deleting file "Emscripten\Release\EmbindTest.unsuccessfulbuild".
+         Touching "Emscripten\Release\EmbindTest.lastbuildstate".
+     1>Done Building Project "c:\Users\zapfdk\documents\visual studio 2010\Projects\EmbindTest\EmbindTest\EmbindTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.86
